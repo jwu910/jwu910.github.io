@@ -1,5 +1,7 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const ReactRootPlugin = require('html-webpack-react-root-plugin');
 
 const config = {
   entry: {
@@ -35,7 +37,12 @@ const config = {
     path: path.resolve(__dirname, './public')
   },
   plugins: [
-    new ExtractTextPlugin('main.css')
+    new ExtractTextPlugin('main.css'),
+    new HtmlWebpackPlugin({
+      title: 'Joshua Wu',
+      filename: 'index.html'
+    }),
+    new ReactRootPlugin()
   ]
 }
 

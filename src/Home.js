@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavBar from './navigation/NavBar';
+import NavBar from './js/components/navigation/NavBar';
 // import nav bar
 // import profile picture
 // import about snippet

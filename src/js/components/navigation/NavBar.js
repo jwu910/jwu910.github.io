@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = (props) => (
   <ul>
-    <Link to={} />
+    <li><Link to="/test" /></li>
   </ul>
 );
 
