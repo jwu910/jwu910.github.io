@@ -34,15 +34,15 @@ const config = {
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, './public')
+    path: path.resolve(__dirname, './build')
   },
   plugins: [
     new ExtractTextPlugin('main.css'),
-    new HtmlWebpackPlugin({
-      title: 'Joshua Wu',
-      filename: 'index.html'
-    }),
-    new ReactRootPlugin()
+    // new HtmlWebpackPlugin({
+    //   title: 'Joshua Wu',
+    //   filename: 'index.html'
+    // }),
+    // new ReactRootPlugin()
   ]
 }
 
