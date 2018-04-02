@@ -16,5 +16,6 @@ body {
   background-color: $color3;
 
   // Import component styling
+  @import "header";
   @import "navbar";
 }
