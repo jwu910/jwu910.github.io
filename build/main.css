@@ -12,12 +12,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #BFC0C0; }
-  body .header-container {
-    height: 56px; }
   body .wrap {
     margin: 0 auto 90px;
     max-width: 540px;
-    padding: 0 16px; }
+    padding: 0 15px; }
+  body .header-container {
+    height: 56px; }
   body .navbar-container {
     width: 100%; }
     body .navbar-container .nav-link {
