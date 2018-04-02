@@ -2,7 +2,7 @@
 
 exports[`Snapshots Renders correctly 1`] = `
 <div
-  className="project-card-wrapper"
+  className="project-card-container"
 >
   <div
     className="title"

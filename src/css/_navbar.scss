@@ -1,10 +1,12 @@
 @import "variables";
 
 .navbar-container {
-  min-width: 100%;
+  width: 100%;
 
   .nav-link {
     color: $color4;
+    padding: 1em 1.5em;
+    display: block;
   }
 
   .nav-list {
@@ -13,11 +15,9 @@
   }
 
   .nav-list-item {
+    list-style: none;
     background-color: $color2;
-    display: block;
-    padding: 1em;
     text-align: center;
-    height: 100%;
 
     &:hover {
       background-color: $color5;
@@ -25,14 +25,16 @@
   }
 
   @media #{$mediaSmallMin} {
+    .main-links {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      min-height: 3em;
+    }
+
     .nav-list {
       display: flex;
       justify-content: flex-end;
-      height: auto;
-    }
-
-    .nav-list-item {
-      display: inline;
     }
   }
 }

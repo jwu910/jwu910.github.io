@@ -2,7 +2,7 @@
 
 exports[`Snapshots Renders correctly 1`] = `
 <div
-  className="navbar-wrapper"
+  className="navbar-container"
 >
   <div
     className="main-links"
@@ -41,17 +41,6 @@ exports[`Snapshots Renders correctly 1`] = `
           onClick={[Function]}
         >
           Portfolio
-        </a>
-      </li>
-      <li
-        className="nav-list-item"
-      >
-        <a
-          className="nav-link"
-          href="/samples"
-          onClick={[Function]}
-        >
-          Sample Sites
         </a>
       </li>
       <li
