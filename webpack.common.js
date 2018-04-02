@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const ReactRootPlugin = require('html-webpack-react-root-plugin');
 
+const autoprefixer = require('autoprefixer');
+
 const PUBLIC_PATH = '/build/';
 
 const config = {
@@ -24,6 +26,14 @@ const config = {
             use: [
               {
                 loader: 'css-loader'
+              },
+              {
+                loader: 'postcss-loader',
+                options: {
+                  plugins: () => [
+                    autoprefixer()
+                  ]
+                }
               },
               {
                 loader: 'sass-loader'
