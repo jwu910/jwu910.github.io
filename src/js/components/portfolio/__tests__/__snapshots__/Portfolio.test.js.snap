@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots Renders correctly 1`] = `
+<div>
+  <div
+    className="portfolio-wrapper"
+  >
+    <div
+      className="project-list-wrapper"
+    >
+      <ul>
+        <li>
+          <div
+            className="project-card-wrapper"
+          >
+            <div
+              className="title"
+            >
+              check-it-out
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="project-card-wrapper"
+          >
+            <div
+              className="title"
+            >
+              branch-note
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="project-card-wrapper"
+          >
+            <div
+              className="title"
+            >
+              slng
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

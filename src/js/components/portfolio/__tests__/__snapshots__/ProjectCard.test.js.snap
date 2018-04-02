@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots Renders correctly 1`] = `
+<div
+  className="project-card-wrapper"
+>
+  <div
+    className="title"
+  />
+</div>
+`;
