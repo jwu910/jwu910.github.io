@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const ReactRootPlugin = require('html-webpack-react-root-plugin');
 
+const PUBLIC_PATH = '/build/';
+
 const config = {
   entry: {
     index: path.resolve(__dirname, './src/index.js')
