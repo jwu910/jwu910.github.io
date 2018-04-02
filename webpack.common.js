@@ -36,15 +36,11 @@ const config = {
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, './build')
+    path: path.resolve(__dirname, './build'),
+    publicPath: PUBLIC_PATH
   },
   plugins: [
-    new ExtractTextPlugin('main.css'),
-    // new HtmlWebpackPlugin({
-    //   title: 'Joshua Wu',
-    //   filename: 'index.html'
-    // }),
-    // new ReactRootPlugin()
+    new ExtractTextPlugin('main.css')
   ]
 }
 
