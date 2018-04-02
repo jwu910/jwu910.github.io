@@ -5,11 +5,14 @@ import NavBar from './js/components/navigation/NavBar';
 // import profile picture
 // import about snippet
 
-const Home = (props) => (
-  <div>
-    <NavBar />
-    <h1>Hello there</h1>
-  </div>
-);
+class Home extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>This is the home page</h1>
+      </div>
+    );
+  }
+}
 
 export default Home;

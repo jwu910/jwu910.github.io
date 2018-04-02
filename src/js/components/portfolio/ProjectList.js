@@ -7,9 +7,17 @@ class ProjectList extends React.Component {
     return (
       <div className="project-list-wrapper">
         <ul>
-          <ProjectCard title="check-it-out"/>
-          <ProjectCard title="branch-note"/>
-          <ProjectCard title="slng"/>
+          <li>
+            <ProjectCard title="check-it-out"/>
+          </li>
+
+          <li>
+            <ProjectCard title="branch-note"/>
+          </li>
+
+          <li>
+            <ProjectCard title="slng"/>
+          </li>
         </ul>
       </div>
     );
