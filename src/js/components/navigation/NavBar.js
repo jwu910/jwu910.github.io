@@ -6,7 +6,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="navbar-container">
-        <div className="main-links" ref="navbar">
+        <div className="main-links">
           <ul className="nav-list">
             <li className="nav-list-item">
               <Link className="nav-link" to="/">Home</Link>
@@ -18,10 +18,6 @@ class NavBar extends React.Component {
 
             <li className="nav-list-item">
               <Link className="nav-link" to="/portfolio">Portfolio</Link>
-            </li>
-
-            <li className="nav-list-item">
-              <Link className="nav-link" to="/samples">Sample Sites</Link>
             </li>
 
             <li className="nav-list-item">
