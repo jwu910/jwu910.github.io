@@ -1,0 +1,41 @@
+/* ---------- Shared ---------- */
+/* ---------- Theme Colors ---------- */
+/* ---------- BreakPoints ---------- */
+html {
+  height: 100%;
+  overflow-y: scroll;
+  font-family: "Roboto", sans-serif; }
+  html a {
+    text-decoration: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #BFC0C0; }
+  body .header-container {
+    height: 56px; }
+  body .navbar-container {
+    width: 100%; }
+    body .navbar-container .nav-link {
+      color: #FFFFFF;
+      padding: 1em 1.5em;
+      display: block;
+      max-height: 56px; }
+    body .navbar-container .nav-list {
+      margin: 0;
+      padding: 0; }
+    body .navbar-container .nav-list-item {
+      list-style: none;
+      background-color: #4F5D75;
+      text-align: center; }
+      body .navbar-container .nav-list-item:hover {
+        background-color: #EF8354; }
+    @media (min-width: 750px) {
+      body .navbar-container .main-links {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        min-height: 3em; }
+      body .navbar-container .nav-list {
+        display: flex;
+        justify-content: flex-end; } }
