@@ -15,8 +15,13 @@ body {
   padding: 0;
   background-color: $color3;
 
+  .wrap {
+    margin: 0 auto 90px;
+    max-width: 540px;
+    padding: 0 15px;
+  }
+
   // Import component styling
   @import "header";
-  @import "home";
   @import "navbar";
 }

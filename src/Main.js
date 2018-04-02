@@ -10,12 +10,14 @@ class Main extends React.Component {
     return (
       <div className="main-container">
         <Header />
-        <Switch>
-          <Route exact path="/" component={ Home } />
+        <div className="wrap">
+          <Switch>
+            <Route exact path="/" component={ Home } />
 
-          <Route path="/test" component={ Home } />
-          <Route path="/portfolio" component={ Portfolio } />
-        </Switch>
+            <Route path="/test" component={ Home } />
+            <Route path="/portfolio" component={ Portfolio } />
+          </Switch>
+        </div>
       </div>
     );
   }
