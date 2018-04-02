@@ -8,7 +8,7 @@ import NavBar from './js/components/navigation/NavBar';
 class Main extends React.Component {
   render() {
     return (
-      <div className="main-wrapper">
+      <div className="main-container">
         <NavBar />
         <Switch>
           <Route exact path="/" component={ Home } />

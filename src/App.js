@@ -7,7 +7,7 @@ import './css/main.scss';
 class App extends React.Component {
   render() {
     return (
-      <div className="app-wrapper">
+      <div className="app-container">
         <Main />
       </div>
     );

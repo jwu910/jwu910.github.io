@@ -7,7 +7,7 @@ class ProjectCard extends React.Component {
     //@todo Render create link to component based on title
 
     return (
-      <div className='project-card-wrapper'>
+      <div className='project-card-container'>
         <div className="title">{ title }</div>
       </div>
     );

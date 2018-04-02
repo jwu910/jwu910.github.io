@@ -6,7 +6,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div>
-        <div className="portfolio-wrapper">
+        <div className="portfolio-container">
           <ProjectList />
         </div>
       </div>

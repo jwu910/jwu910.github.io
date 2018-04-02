@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 class ProjectList extends React.Component {
   render() {
     return (
-      <div className="project-list-wrapper">
+      <div className="project-list-container">
         <ul>
           <li>
             <ProjectCard title="check-it-out"/>
