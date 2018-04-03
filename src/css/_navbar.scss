@@ -1,6 +1,10 @@
 .navbar-container {
   width: 100%;
 
+  .main-links {
+    background-color: $color2;
+  }
+
   .nav-link {
     color: $color4;
     padding: 1em 1.5em;
@@ -15,11 +19,10 @@
 
   .nav-list-item {
     list-style: none;
-    background-color: $color2;
     text-align: center;
 
-    &:hover {
-      background-color: $color5;
+    &:hover .nav-link {
+      color: $color5;
     }
   }
 
