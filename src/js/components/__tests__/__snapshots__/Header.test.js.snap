@@ -4,7 +4,6 @@ exports[`Snapshots Renders correctly 1`] = `
 <div
   className="header-container"
 >
-  Some others stuff
   <div
     className="navbar-container"
   >
