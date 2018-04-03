@@ -8,15 +8,24 @@ class ProjectList extends React.Component {
       <div className="project-list-container">
         <ul>
           <li>
-            <ProjectCard title="check-it-out"/>
+            <ProjectCard
+              title="Check It Out"
+              githubLink="/jwu910/check-it-out"
+            />
           </li>
 
           <li>
-            <ProjectCard title="branch-note"/>
+            <ProjectCard
+              title="Branchnote"
+              githubLink="/jwu910/branchnote"
+            />
           </li>
 
           <li>
-            <ProjectCard title="slng"/>
+            <ProjectCard
+              title="Slng"
+              githubLink="/5-gwoap/slng-node"
+            />
           </li>
         </ul>
       </div>

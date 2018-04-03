@@ -5,6 +5,8 @@ import React from 'react';
 // import about snippet
 
 class Home extends React.Component {
+  // On load, check if url has parameter and route to given route
+
   render() {
     return (
       <div className="home-container">
