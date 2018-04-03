@@ -26,17 +26,6 @@ exports[`Snapshots Renders correctly 1`] = `
       >
         <a
           className="nav-link"
-          href="/about"
-          onClick={[Function]}
-        >
-          About
-        </a>
-      </li>
-      <li
-        className="nav-list-item"
-      >
-        <a
-          className="nav-link"
           href="/portfolio"
           onClick={[Function]}
         >

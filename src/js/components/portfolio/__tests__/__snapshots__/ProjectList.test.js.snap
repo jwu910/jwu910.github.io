@@ -9,33 +9,93 @@ exports[`Snapshots Renders correctly 1`] = `
       <div
         className="project-card-container"
       >
-        <div
-          className="title"
+        <a
+          className="githubLink"
+          href="https://github.com/jwu910/check-it-out"
         >
-          check-it-out
-        </div>
+          <div
+            className="card-wrapper"
+          >
+            <div
+              className="card-box"
+            >
+              <div
+                className="card-title"
+              >
+                <span
+                  className="title"
+                >
+                  Check It Out
+                </span>
+              </div>
+              <div
+                className="card-content"
+              />
+            </div>
+          </div>
+        </a>
       </div>
     </li>
     <li>
       <div
         className="project-card-container"
       >
-        <div
-          className="title"
+        <a
+          className="githubLink"
+          href="https://github.com/jwu910/branchnote"
         >
-          branch-note
-        </div>
+          <div
+            className="card-wrapper"
+          >
+            <div
+              className="card-box"
+            >
+              <div
+                className="card-title"
+              >
+                <span
+                  className="title"
+                >
+                  Branchnote
+                </span>
+              </div>
+              <div
+                className="card-content"
+              />
+            </div>
+          </div>
+        </a>
       </div>
     </li>
     <li>
       <div
         className="project-card-container"
       >
-        <div
-          className="title"
+        <a
+          className="githubLink"
+          href="https://github.com/5-gwoap/slng-node"
         >
-          slng
-        </div>
+          <div
+            className="card-wrapper"
+          >
+            <div
+              className="card-box"
+            >
+              <div
+                className="card-title"
+              >
+                <span
+                  className="title"
+                >
+                  Slng
+                </span>
+              </div>
+              <div
+                className="card-content"
+              />
+            </div>
+          </div>
+        </a>
       </div>
     </li>
   </ul>

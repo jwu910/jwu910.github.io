@@ -4,8 +4,28 @@ exports[`Snapshots Renders correctly 1`] = `
 <div
   className="project-card-container"
 >
-  <div
-    className="title"
-  />
+  <a
+    className="githubLink"
+    href="https://github.comundefined"
+  >
+    <div
+      className="card-wrapper"
+    >
+      <div
+        className="card-box"
+      >
+        <div
+          className="card-title"
+        >
+          <span
+            className="title"
+          />
+        </div>
+        <div
+          className="card-content"
+        />
+      </div>
+    </div>
+  </a>
 </div>
 `;
