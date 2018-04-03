@@ -54,8 +54,8 @@ body {
     width: 100%; }
     body .project-card-container .githubLink:active, body .project-card-container .githubLink:visited {
       color: #2D3142; }
-    body .project-card-container .githubLink:hover {
-      background-color: #EF8354; }
+    body .project-card-container .githubLink:hover .title {
+      color: #EF8354; }
   body .project-card-container .card-wrapper {
     position: relative;
     margin: auto; }
