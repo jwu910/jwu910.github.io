@@ -13,8 +13,8 @@
       color: $color1;
     }
 
-    &:hover {
-      background-color: $color5;
+    &:hover .title {
+      color: $color5;
     }
   }
 
