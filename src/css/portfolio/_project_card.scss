@@ -1,0 +1,12 @@
+.project-card-container {
+  li {
+    list-style: none;
+  }
+
+  .card-wrapper {
+    display: inline;
+    background-color: $color1;
+    min-width: 48px;
+    min-height: 48px;
+  }
+}

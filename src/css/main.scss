@@ -24,4 +24,6 @@ body {
   // Import component styling
   @import "header";
   @import "navbar";
+  @import "./portfolio/project_card";
+  @import "./portfolio/project_list";
 }
