@@ -17,9 +17,11 @@ body {
     max-width: 540px;
     padding: 0 15px; }
   body .header-container {
-    height: 56px; }
+    min-height: 56px; }
   body .navbar-container {
     width: 100%; }
+    body .navbar-container .main-links {
+      background-color: #4F5D75; }
     body .navbar-container .nav-link {
       color: #FFFFFF;
       padding: 1em 1.5em;
@@ -30,10 +32,9 @@ body {
       padding: 0; }
     body .navbar-container .nav-list-item {
       list-style: none;
-      background-color: #4F5D75;
       text-align: center; }
-      body .navbar-container .nav-list-item:hover {
-        background-color: #EF8354; }
+      body .navbar-container .nav-list-item:hover .nav-link {
+        color: #EF8354; }
     @media (min-width: 750px) {
       body .navbar-container .main-links {
         position: fixed;
@@ -43,3 +44,22 @@ body {
       body .navbar-container .nav-list {
         display: flex;
         justify-content: flex-end; } }
+  body .project-card-container .githubLink {
+    color: #2D3142;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 5px 5px 2px 1px rgba(45, 49, 66, 0.1);
+    display: inline-flex;
+    margin: 8px;
+    width: 100%; }
+    body .project-card-container .githubLink:active, body .project-card-container .githubLink:visited {
+      color: #2D3142; }
+    body .project-card-container .githubLink:hover {
+      background-color: #EF8354; }
+  body .project-card-container .card-wrapper {
+    position: relative;
+    margin: auto; }
+    body .project-card-container .card-wrapper .card-title {
+      padding: 40px; }
+  body .project-list-container li {
+    list-style: none; }
