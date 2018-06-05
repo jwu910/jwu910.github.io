@@ -9,9 +9,10 @@ html {
     text-decoration: none; }
 
 body {
+  background-color: #FFFFFF;
   margin: 0;
-  padding: 0;
-  background-color: #BFC0C0; }
+  max-width: 940px;
+  padding: 0; }
   body .wrap {
     margin: 0 auto 90px;
     max-width: 540px;
@@ -45,17 +46,19 @@ body {
         display: flex;
         justify-content: flex-end; } }
   body .project-card-container .githubLink {
-    color: #2D3142;
-    background-color: #FFFFFF;
+    color: #EF8354;
+    background-color: #4F5D75;
     border-radius: 8px;
     box-shadow: 5px 5px 2px 1px rgba(45, 49, 66, 0.1);
     display: inline-flex;
     margin: 8px;
     width: 100%; }
     body .project-card-container .githubLink:active, body .project-card-container .githubLink:visited {
-      color: #2D3142; }
+      color: #EF8354; }
     body .project-card-container .githubLink:hover .title {
       color: #EF8354; }
+    body .project-card-container .githubLink:hover {
+      box-shadow: 8px 8px 4px 2px rgba(45, 49, 66, 0.1); }
   body .project-card-container .card-wrapper {
     position: relative;
     margin: auto; }
