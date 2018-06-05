@@ -15,13 +15,12 @@ class ProjectCard extends React.Component {
       <div className="project-card-container">
         <a className="githubLink" href={`https://github.com${githubLink}`}>
           <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card-title">
-                  <span className="title">{ title }</span>
-                </div>
-                <div className="card-content">
-                </div>
+            <div className="card-box">
+              <div className="card-title">
+                <span className="title">{title}</span>
               </div>
+              <div className="card-content" />
+            </div>
           </div>
         </a>
       </div>
@@ -31,7 +30,7 @@ class ProjectCard extends React.Component {
 
 ProjectCard.propTypes = {
   title: PropTypes.string,
-  githubLink: PropTypes.string
+  githubLink: PropTypes.string,
 };
 
 export default ProjectCard;
