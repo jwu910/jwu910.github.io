@@ -46,17 +46,35 @@ body {
         display: flex;
         justify-content: flex-end; } }
   body .project-card-container .githubLink {
-    color: #EF8354;
     background-color: #4F5D75;
     border-radius: 8px;
     box-shadow: 5px 5px 2px 1px rgba(45, 49, 66, 0.1);
+    color: #EF8354;
+    cursor: pointer;
     display: inline-flex;
     margin: 8px;
+    transition: all 0.5s;
     width: 100%; }
+    body .project-card-container .githubLink .title {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s; }
+    body .project-card-container .githubLink .title:after {
+      content: '\BB';
+      opacity: 0;
+      position: absolute;
+      right: -20px;
+      top: 0;
+      transition: 0.5s; }
+    body .project-card-container .githubLink:hover .title:after {
+      opacity: 1;
+      right: 0; }
     body .project-card-container .githubLink:active, body .project-card-container .githubLink:visited {
       color: #EF8354; }
     body .project-card-container .githubLink:hover .title {
-      color: #EF8354; }
+      color: #EF8354;
+      padding-right: 25px; }
     body .project-card-container .githubLink:hover {
       box-shadow: 8px 8px 4px 2px rgba(45, 49, 66, 0.1); }
   body .project-card-container .card-wrapper {
