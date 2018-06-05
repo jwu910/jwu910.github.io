@@ -9,15 +9,38 @@
     margin: 8px;
     width: 100%;
 
+    .title {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .title:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    &:hover .title:after {
+      opacity: 1;
+      right: 0;
+    }
+
     &:active, &:visited {
       color: $color5;
     }
 
     &:hover .title {
       color: $color5;
+      padding-right: 25px;
     }
 
     &:hover {
+
       box-shadow: 8px 8px 4px 2px rgba(45, 49, 66, .1);
     }
   }
