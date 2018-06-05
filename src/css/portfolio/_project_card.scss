@@ -1,8 +1,8 @@
 .project-card-container {
 
   .githubLink {
-    color: $color1;
-    background-color: $color4;
+    color: $color5;
+    background-color: $color2;
     border-radius: 8px;
     box-shadow: 5px 5px 2px 1px rgba(45, 49, 66, .1);
     display: inline-flex;
@@ -10,11 +10,15 @@
     width: 100%;
 
     &:active, &:visited {
-      color: $color1;
+      color: $color5;
     }
 
     &:hover .title {
       color: $color5;
+    }
+
+    &:hover {
+      box-shadow: 8px 8px 4px 2px rgba(45, 49, 66, .1);
     }
   }
 
