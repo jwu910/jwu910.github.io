@@ -1,12 +1,14 @@
 .project-card-container {
 
   .githubLink {
-    color: $color5;
     background-color: $color2;
     border-radius: 8px;
     box-shadow: 5px 5px 2px 1px rgba(45, 49, 66, .1);
+    color: $color5;
+    cursor: pointer;
     display: inline-flex;
     margin: 8px;
+    transition: all 0.5s;
     width: 100%;
 
     .title {
@@ -18,10 +20,10 @@
 
     .title:after {
       content: '\00bb';
-      position: absolute;
       opacity: 0;
-      top: 0;
+      position: absolute;
       right: -20px;
+      top: 0;
       transition: 0.5s;
     }
 
@@ -40,7 +42,6 @@
     }
 
     &:hover {
-
       box-shadow: 8px 8px 4px 2px rgba(45, 49, 66, .1);
     }
   }
