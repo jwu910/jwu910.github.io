@@ -7,12 +7,6 @@ import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
   render() {
-    const currentPath = window.location.search.split('=')[1];
-
-    if (currentPath) {
-      window.location.path = currentPath;
-    }
-
     return (
       <div className="home-container">
         <h3>We're technically still under construction...</h3>
