@@ -36,7 +36,7 @@ exports[`Snapshots Renders correctly 1`] = `
                     className="card-content"
                   >
                     <a
-                      href="https://check-it-out.club"
+                      href="https://checkit.club"
                     />
                   </div>
                 </div>
