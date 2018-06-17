@@ -11,8 +11,7 @@ class Home extends React.Component {
       <div className="home-container">
         <h3>We're technically still under construction...</h3>
         <h4>
-          But please check out some of my
-          <a href="/portfolio">current projects!</a>
+          But please check out some of my <a href="/portfolio">current projects!</a>
         </h4>
       </div>
     );

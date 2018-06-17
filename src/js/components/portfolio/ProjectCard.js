@@ -4,6 +4,7 @@ import React from 'react';
 class ProjectCard extends React.Component {
   render() {
     const {
+      description,
       externalLink,
       title,
       githubLink
@@ -38,6 +39,7 @@ class ProjectCard extends React.Component {
 }
 
 ProjectCard.propTypes = {
+  description: PropTypes.string,
   externalLink: PropTypes.string,
   githubLink: PropTypes.string,
   title: PropTypes.string
