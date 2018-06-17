@@ -6,7 +6,7 @@ exports[`Snapshots Renders correctly 1`] = `
 >
   <a
     className="githubLink"
-    href="https://github.comundefined"
+    href="https://github.com/jwu910"
   >
     <div
       className="card-wrapper"

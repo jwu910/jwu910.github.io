@@ -30,7 +30,11 @@ exports[`Snapshots Renders correctly 1`] = `
               </div>
               <div
                 className="card-content"
-              />
+              >
+                <a
+                  href="https://check-it-out.club"
+                />
+              </div>
             </div>
           </div>
         </a>
@@ -61,7 +65,11 @@ exports[`Snapshots Renders correctly 1`] = `
               </div>
               <div
                 className="card-content"
-              />
+              >
+                <a
+                  href="https://github.com/jwu910"
+                />
+              </div>
             </div>
           </div>
         </a>
@@ -73,7 +81,7 @@ exports[`Snapshots Renders correctly 1`] = `
       >
         <a
           className="githubLink"
-          href="https://github.com/5-gwoap/slng-node"
+          href="https://github.comtest"
         >
           <div
             className="card-wrapper"
@@ -87,12 +95,16 @@ exports[`Snapshots Renders correctly 1`] = `
                 <span
                   className="title"
                 >
-                  Slng
+                  test
                 </span>
               </div>
               <div
                 className="card-content"
-              />
+              >
+                <a
+                  href="test"
+                />
+              </div>
             </div>
           </div>
         </a>
