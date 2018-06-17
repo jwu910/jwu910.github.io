@@ -1,0 +1,20 @@
+{
+  "checkitout": {
+    "description": "An interactive Git CLI tool to bring even more ease to checking out your git branches. Check It Out visualizes your branches--organized by remotes--allowing you to conveniently checkout recently active branches.",
+    "externalLink": "https://check-it-out.club",
+    "githubLink": "/jwu910/check-it-out",
+    "title": "Check It Out"
+  },
+  "branchnote": {
+    "description": "Interactive CLI prompt to quickly and easily delete local branches.",
+    "externalLink": "https://github.com/jwu910",
+    "githubLink": "/jwu910/branchnote",
+    "title": "Branchnote"
+  },
+  "placeholder": {
+    "description": "test",
+    "externalLink": "test",
+    "githubLink": "test",
+    "title": "test"
+  }
+}

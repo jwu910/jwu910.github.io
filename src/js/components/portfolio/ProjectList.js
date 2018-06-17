@@ -2,32 +2,36 @@ import React from 'react';
 
 import ProjectCard from './ProjectCard';
 
+import projects from '../../../../projects.json';
+
 class ProjectList extends React.Component {
   render() {
+    const keys = Object.keys(projects);
+
     return (
       <div className="project-list-container">
         <ul>
-          <li>
-            <ProjectCard
-              title="Check It Out"
-              githubLink="/jwu910/check-it-out"
-              externalLink="https://check-it-out.club"
-            />
-          </li>
+          {
+            keys.map(projectName => {
+              const {
+                description,
+                externalLink,
+                githubLink,
+                title
+              } = projects[projectName];
 
-          <li>
-            <ProjectCard
-              title="Branchnote"
-              githubLink="/jwu910/branchnote"
-            />
-          </li>
-
-          <li>
-            <ProjectCard
-              title="Slng"
-              githubLink="/5-gwoap/slng-node"
-            />
-          </li>
+              return (
+                <li key={title}>
+                  <ProjectCard
+                    description={description}
+                    externalLink={externalLink}
+                    githubLink={githubLink}
+                    title={title}
+                  />
+                </li>
+              )
+            })
+          }
         </ul>
       </div>
     );
