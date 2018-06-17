@@ -3,7 +3,11 @@ import React from 'react';
 
 class ProjectCard extends React.Component {
   render() {
-    const { title, githubLink } = this.props;
+    const {
+      externalLink,
+      title,
+      githubLink
+    } = this.props;
 
     //@todo Render create link to component based on title
 
@@ -19,7 +23,12 @@ class ProjectCard extends React.Component {
               <div className="card-title">
                 <span className="title">{title}</span>
               </div>
-              <div className="card-content" />
+
+              <div className="card-content">
+                {externalLink &&
+                  <a href={externalLink}></a>
+                }
+              </div>
             </div>
           </div>
         </a>
@@ -29,8 +38,13 @@ class ProjectCard extends React.Component {
 }
 
 ProjectCard.propTypes = {
-  title: PropTypes.string,
+  externalLink: PropTypes.string,
   githubLink: PropTypes.string,
+  title: PropTypes.string
 };
+
+ProjectCard.defaultProps = {
+  githubLink: '/jwu910'
+}
 
 export default ProjectCard;

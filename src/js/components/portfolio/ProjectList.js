@@ -11,6 +11,7 @@ class ProjectList extends React.Component {
             <ProjectCard
               title="Check It Out"
               githubLink="/jwu910/check-it-out"
+              externalLink="https://check-it-out.club"
             />
           </li>
 

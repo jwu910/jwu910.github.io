@@ -13,7 +13,9 @@ class Main extends React.Component {
         <div className="wrap">
           <Switch>
             <Route exact path="/" component={Home} />
+
             <Route path="/portfolio" component={Portfolio} />
+
             <Route path="/contact" component={Portfolio} />
           </Switch>
         </div>
