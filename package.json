@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/jwu910/jwu910.github.io#readme",
   "dependencies": {
-    "react": "^16.8.1",
+    "react": "^16.8.3",
     "react-dom": "^16.8.2",
     "react-router-dom": "^4.3.1"
   },
